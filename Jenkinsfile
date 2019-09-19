@@ -15,11 +15,11 @@ pipeline {
             }
         }
 
-        //stage ('Dummy Maven Operation') {
-        //    steps {
-        //        sh 'mvn --version'
-        //    }
-        //}
+        stage ('Dummy Maven Operation') {
+            steps {
+                sh 'mvn --version'
+            }
+        }
  
     }
 }
